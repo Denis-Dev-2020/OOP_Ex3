@@ -107,15 +107,15 @@ so we used this methods to reach O(1) with this directed graph (can be undirecte
   
 ## Screenshots :
  
-![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex02Pics/Load.png)
+![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex03Pics/Dije.png)
       
-![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex02Pics/Center.png)
+![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex03Pics/TSP.png)
             
-![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex02Pics/Dije.png)
+![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex03Pics/Center.png)
                   
-![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex02Pics/TSP.png)
+![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex03Pics/Run.png)
                         
-![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex02Pics/All.png)
+![name-of-you-image](https://github.com/Denis-Dev-2020/OPP_Ex2/blob/main/Ex03Pics/Run2.png)
 
   
   
