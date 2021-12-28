@@ -9,7 +9,7 @@ In this project we practice graph algorithms such as :
  - Graph center node
  - Graph connectivity to see if the graph is connected or saperated
 
-also we practiced Java GUI in this project with the help of JFrame and JPanel libraries
+also we practiced Python GUI in this project with the help of Tkinter library
 
 
 ## Implementation :
