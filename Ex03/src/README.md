@@ -1,7 +1,7 @@
 # OPP Exercise No.3
 
 ## Welcome to our third exersice
-<sub>code written by Denis Chernoglaz and Dima Sanin</sub>
+<sub>code written by Denis Chernoglaz</sub>
 
 In this project we practice graph algorithms such as :
  - Dijekstra's algorithm for finding shortest path 
