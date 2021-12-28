@@ -69,6 +69,8 @@ so we used this methods to reach O(1) with this directed graph (can be undirecte
           and the we get all of the possible permutations with the help of getPermutations function
           after all that we check every option and calculate minimum path and return that path after all
           the modification it is still complex problem we do it around O(n!)
+          
+          PLEASE DO NOT TEST ON BIG GRAPH CAUSE OF COMPLEXITY
 
 
   - load - get all the data from json file and put it inside our general graph "_DWG"   O(n)
