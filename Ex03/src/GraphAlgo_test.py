@@ -1,8 +1,8 @@
 import unittest
 from GraphAlgo import *
 from Graph import *
-#unittest.TestCase
-class TestGraphAlgos():
+
+class TestGraphAlgos(unittest.TestCase):
     def TestBasicInput(self):
         newGraph1 = DiGraph()
         newGraphAlgo = GraphAlgo(newGraph1)
@@ -87,38 +87,31 @@ class TestGraphAlgos():
     def TestCenter(self):
 
         newGraph1 = DiGraph()
-        newGraphAlgo = GraphAlgo(newGraph1)
-        newGraphAlgo.load_from_json("data/A1.json")
+        newGraphAlgo1 = GraphAlgo(newGraph1)
+        newGraphAlgo1.load_from_json("data/A1.json")
+        self.assertAlmostEqual(newGraphAlgo1.centerPoint()[0],0)
 
-        newGraph1 = DiGraph()
-        newGraphAlgo = GraphAlgo(newGraph1)
-        newGraphAlgo.load_from_json("data/A2.json")
+        newGraph2 = DiGraph()
+        newGraphAlgo2 = GraphAlgo(newGraph2)
+        newGraphAlgo2.load_from_json("data/A2.json")
+        self.assertAlmostEqual(newGraphAlgo1.centerPoint()[0],27)
 
-        newGraph1 = DiGraph()
-        newGraphAlgo = GraphAlgo(newGraph1)
-        newGraphAlgo.load_from_json("data/A3.json")
+        newGraph3 = DiGraph()
+        newGraphAlgo3 = GraphAlgo(newGraph3)
+        newGraphAlgo3.load_from_json("data/A3.json")
+        self.assertAlmostEqual(newGraphAlgo1.centerPoint()[0],29)
 
-        newGraph1 = DiGraph()
-        newGraphAlgo = GraphAlgo(newGraph1)
-        newGraphAlgo.load_from_json("data/A4.json")
+        newGraph4 = DiGraph()
+        newGraphAlgo4 = GraphAlgo(newGraph4)
+        newGraphAlgo4.load_from_json("data/A4.json")
+        self.assertAlmostEqual(newGraphAlgo1.centerPoint()[0],0)
 
-        newGraph1 = DiGraph()
-        newGraphAlgo = GraphAlgo(newGraph1)
-        newGraphAlgo.load_from_json("data/A5.json")
+        newGraph5 = DiGraph()
+        newGraphAlgo5 = GraphAlgo(newGraph5)
+        newGraphAlgo5.load_from_json("data/A5.json")
+        self.assertAlmostEqual(newGraphAlgo1.centerPoint()[0],47)
 
-        newGraph1 = DiGraph()
-        newGraphAlgo = GraphAlgo(newGraph1)
-        newGraphAlgo.load_from_json("data/A6.json")
-
-# A3 center = 29
-#
-# A2 center = 27
-#
-# A1 center = 0
-# A4 center = 0
-# A5 center 47
-# A6 center 3
-
-if __name__ == '__main__':
-    adad = TestGraphAlgos()
-    adad.TestCenter()
+        newGraph6 = DiGraph()
+        newGraphAlgo6 = GraphAlgo(newGraph6)
+        newGraphAlgo6.load_from_json("data/A6.json")
+        self.assertAlmostEqual(newGraphAlgo1.centerPoint()[0],3)
