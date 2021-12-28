@@ -81,6 +81,7 @@ so we used this methods to reach O(1) with this directed graph (can be undirecte
   
   1. just run main.py and the GUI will open automaticly then you can load a path to "data/A3.json"
      or other json file , you put it in the pink entry box near "Load" button
+     
   2.you can run it with an argument of A3.json file (for example) without "data/" before but
     be sure to put data folder inside src folder with json files , then run it like that:
     python3.9 main.py A3.json
