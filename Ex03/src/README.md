@@ -77,19 +77,28 @@ so we used this methods to reach O(1) with this directed graph (can be undirecte
   
 ## Execute :
 
-  just execute the jar file it will open a window that will show you buttons with options
+  2 ways :
+  
+  1. just run main.py and the GUI will open automaticly then you can load a path to "data/A3.json"
+     or other json file , you put it in the pink entry box near "Load" button
+  2.you can run it with an argument of A3.json file (for example) without "data/" before but
+    be sure to put data folder inside src folder with json files , then run it like that:
+    python3.9 main.py A3.json
   
   
 ## Testing :
-
+  included Unittest file
   We have conducted several tests on all of our algorithms with great results
   we attached a JUnit test file that check all of our operations with several different
   graphs , on other test we checked the speed of our algorithms for example here the 
   Dijekstra's shortest distance algorithm :
   
-  - for 1000 nodes graph we received the speed of msec(672.951)
+  - for 1000 nodes graph we received the speed of msec(1387.239)
   
-  - for 10000 nodes graph we received the speed of msec(1329.819)
+  - for 10000 nodes graph we received the speed of msec(2694.942)
+
+
+ That was a bit slower then the previous assigment
   
   
 ## GUI :
